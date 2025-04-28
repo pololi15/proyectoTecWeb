@@ -221,7 +221,7 @@ footer {
   color: gray;
 }
 
-/* Media Queries with improved Flexbox behavior */
+/* Responsiveeeee*/
 @media (max-width: 1050px) {
   nav img {
     margin-left: 25px;
