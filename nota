@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Pepsi - Inspired By The Best</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estiloos.css">
+  <!-- Font Awesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/289f25cb4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    
+    <a href="index.html"><img src="pepsi-cola.svg" alt="Pepsi Logo"></a>
+    
+    <ul>
+      <li><a href="#">Brands</a></li>
+      <li><a href="#">Discover</a></li>
+      <li><a href="#">Impact</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Promos & Offers</a></li>
+    </ul>
+    
+    <!-- Overlay para oscurecer el fondo cuando el menú está abierto -->
+    <div class="overlay"></div>
+  </nav>
+  
+  <!-- Hero Banner -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h1>THAT'S WHAT I LIKE</h1>
+      <p>Refresh your world with Pepsi</p>
+      <a href="#" class="hero-btn">Explore More</a>
+    </div>
+  </div>
+  
+  <!-- Triple Carousel - Estilo Coca-Cola -->
+  <div class="triple-carousel-section">
+    <div class="section-header">
+      <h2>EXPLORE OUR PRODUCTS</h2>
+    </div>
+    
+    <div class="triple-carousel-container">
+      <div class="triple-carousel-track">
+        <!-- Slide 1 -->
+        <div class="triple-carousel-slide">
+          <div class="card">
+            <div class="card-image">
+              <img src="product1.jpg" alt="Pepsi Original">
+            </div>
+            <div class="card-content">
+              <h3>PEPSI ORIGINAL</h3>
+              <p>The bold, refreshing taste you know and love.</p>
+              <a href="#" class="card-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="triple-carousel-slide">
+          <div class="card">
+            <div class="card-image">
+              <img src="product2.jpg" alt="Pepsi Zero Sugar">
+            </div>
+            <div class="card-content">
+              <h3>PEPSI ZERO SUGAR</h3>
+              <p>Maximum taste with zero sugar.</p>
+              <a href="#" class="card-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="triple-carousel-slide">
+          <div class="card">
+            <div class="card-image">
+              <img src="product3.jpg" alt="Pepsi Wild Cherry">
+            </div>
+            <div class="card-content">
+              <h3>WILD CHERRY PEPSI</h3>
+              <p>The perfect blend of cola and cherry flavors.</p>
+              <a href="#" class="card-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Slide 4 -->
+        <div class="triple-carousel-slide">
+          <div class="card">
+            <div class="card-image">
+              <img src="product4.jpg" alt="Pepsi Mango">
+            </div>
+            <div class="card-content">
+              <h3>PEPSI MANGO</h3>
+              <p>A tropical twist on the classic Pepsi taste.</p>
+              <a href="#" class="card-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Slide 5 -->
+        <div class="triple-carousel-slide">
+          <div class="card">
+            <div class="card-image">
+              <img src="product5.jpg" alt="Diet Pepsi">
+            </div>
+            <div class="card-content">
+              <h3>DIET PEPSI</h3>
+              <p>Light and crisp with zero calories.</p>
+              <a href="#" class="card-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Slide 6 -->
+        <div class="triple-carousel-slide">
+          <div class="card">
+            <div class="card-image">
+              <img src="product6.jpg" alt="Pepsi Nitro">
+            </div>
+            <div class="card-content">
+              <h3>NITRO PEPSI</h3>
+              <p>Smooth, creamy texture with nitrogen infusion.</p>
+              <a href="#" class="card-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Controles del carrusel -->
+      <button class="triple-carousel-control prev" id="prevBtn">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="triple-carousel-control next" id="nextBtn">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      
+      <!-- Indicadores de página -->
+      <div class="triple-carousel-pagination">
+        <span class="page-indicator active" data-page="1"></span>
+        <span class="page-indicator" data-page="2"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Featured Content Section -->
+  <div class="featured-section">
+    <div class="featured-grid">
+      <!-- Featured Item 1 -->
+      <div class="featured-item">
+        <img src="featured1.jpg" alt="Pepsi Event">
+        <div class="featured-content">
+          <h3>PEPSI SUMMER CONCERTS</h3>
+          <p>Find your vibe at our exclusive summer shows.</p>
+          <a href="#" class="featured-btn">Get Tickets</a>
+        </div>
+      </div>
+      
+      <!-- Featured Item 2 -->
+      <div class="featured-item">
+        <img src="featured2.jpg" alt="Pepsi Sustainability">
+        <div class="featured-content">
+          <h3>SUSTAINABILITY PROMISE</h3>
+          <p>Our commitment to a better planet for generations to come.</p>
+          <a href="#" class="featured-btn">Learn More</a>
+        </div>
+      </div>
+      
+      <!-- Featured Item 3 -->
+      <div class="featured-item">
+        <img src="featured3.jpg" alt="Pepsi Rewards">
+        <div class="featured-content">
+          <h3>PEPSI REWARDS</h3>
+          <p>Earn points and get exclusive rewards.</p>
+          <a href="#" class="featured-btn">Join Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="pepsi-cola.svg" alt="Pepsi Logo">
+      </div>
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">View All Products</a></li>
+            <li><a href="#">Pepsi</a></li>
+            <li><a href="#">Diet Pepsi</a></li>
+            <li><a href="#">Pepsi Zero Sugar</a></li>
+            <li><a href="#">Pepsi Wild Cherry</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Store Locator</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 PepsiCo, Inc. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Triple Carousel Functionality
+      const track = document.querySelector('.triple-carousel-track');
+      const slides = Array.from(document.querySelectorAll('.triple-carousel-slide'));
+      const nextBtn = document.getElementById('nextBtn');
+      const prevBtn = document.getElementById('prevBtn');
+      const pagination = document.querySelectorAll('.page-indicator');
+      
+      let slideWidth = slides[0].getBoundingClientRect().width;
+      let slidesPerView = 3;
+      let slideIndex = 0;
+      let maxIndex = slides.length - slidesPerView;
+      
+      // Set initial position
+      function updateCarousel() {
+        // Recalculate dimensions based on viewport
+        slideWidth = slides[0].getBoundingClientRect().width;
+        
+        // Adjust slidesPerView based on screen size
+        if (window.innerWidth < 768) {
+          slidesPerView = 1;
+        } else if (window.innerWidth < 1024) {
+          slidesPerView = 2;
+        } else {
+          slidesPerView = 3;
+        }
+        
+        maxIndex = slides.length - slidesPerView;
+        
+        // Update track position
+        track.style.transform = `translateX(${-slideIndex * slideWidth}px)`;
+        
+        // Update pagination
+        const currentPage = Math.ceil((slideIndex + 1) / slidesPerView);
+        pagination.forEach((dot, i) => {
+          if (i + 1 === currentPage) {
+            dot.classList.add('active');
+          } else {
+            dot.classList.remove('active');
+          }
+        });
+      }
+      
+      // Initialize carousel
+      updateCarousel();
+      
+      // Event listeners for buttons
+      nextBtn.addEventListener('click', () => {
+        if (slideIndex < maxIndex) {
+          slideIndex++;
+          updateCarousel();
+        } else {
+          // Loop back to start
+          slideIndex = 0;
+          updateCarousel();
+        }
+      });
+      
+      prevBtn.addEventListener('click', () => {
+        if (slideIndex > 0) {
+          slideIndex--;
+          updateCarousel();
+        } else {
+          // Loop to end
+          slideIndex = maxIndex;
+          updateCarousel();
+        }
+      });
+      
+      // Event listeners for pagination
+      pagination.forEach(dot => {
+        dot.addEventListener('click', () => {
+          const page = parseInt(dot.getAttribute('data-page'));
+          slideIndex = (page - 1) * slidesPerView;
+          updateCarousel();
+        });
+      });
+      
+      // Responsive handling
+      window.addEventListener('resize', () => {
+        updateCarousel();
+      });
+      
+      // Mobile Navigation
+      const checkBtn = document.querySelector('.checkbtn');
+      const navCheck = document.getElementById('check');
+      const navItems = document.querySelectorAll('nav ul li a');
+      
+      // Close mobile menu when clicking menu items
+      navItems.forEach(item => {
+        item.addEventListener('click', () => {
+          navCheck.checked = false;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
